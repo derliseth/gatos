@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a class="logo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#razas">Razas</a></li>
+                <li><a href="#gimnasios">Gimnasios</a></li>
+                <li><a href="#contacto">Contactos</a></li>
+            </ul>
+        </nav>
+        <div id="hero">
+            <img src="img/gato.png" alt="logo">
+            <h1>GATITOS</h1>
+            <p>El hombre tiene dos medios para refugiarse de las miserias de la vida:
+                la música y los gatos.</p>
+            <button>empezar</button>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="razas">
+            <!-- La clase container es para poner todo el contenido centrado -->
+            <div class="container">
+                <h2>RAZAS</h2>
+                <p>En <b>GATITOS</b> tenemos las siguientes razas para ti<br>
+                </p>  
+                <div class="fila">
+                    <!-- Si necesitamos 3 columnas se crea una clase columna 4 porque 4*3=12 -->
+                    <div class="col-4">
+                        <img src="img/senderismo.jpg" alt="Imagen gato esfinge">
+                        <h3>ESFINGE</h3>
+                        <p>Me gustaría que mi <br>
+                            escritura fuera tan <br>
+                            misteriosa como un gato</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/canotaje.jpg" alt="Imagen gato siames">
+                        <h3>SIAMES</h3>
+                        <p>Me gustaría que mi <br>
+                            escritura fuera tan <br>
+                            misteriosa como un gato</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/angora.jpg" alt="Imagen angora">
+                        <h3>ANGORA</h3>
+                        <p>Me gustaría que mi <br>
+                            escritura fuera tan <br>
+                            misteriosa como un gato</p>
+                    </div>
+                </div>  
+            </div>
+        </section>
+
+        <section id="gimnasios">
+            <div class="container">
+                <h2>GIMNASIOS</h2>
+                <div class="fila">
+                    <div class="col-6">
+                        <img src="img/gym1.jpg" alt="Imagen ginmasio">
+                        <h3>GIMNASIO 1</h3>
+                    </div>
+                    <div class="col-6">
+                        <img src="img/gym2.jpg" alt="Imagen GIMNASIO 2">
+                        <h3>GIMNASIO 2</h3>
+                    </div>
+                </div> 
+                <div class="fila">
+                    <div class="col-6">
+                        <img src="img/gym3.jpg" alt="Imagen GIMNASIO 3">
+                        <h3>GIMNASIO 3</h3>
+                    </div>
+                    <div class="col-6">
+                        <img src="img/gym4.jpg" alt="Imagen GIMNASIO 4">
+                        <h3>GIMNASIO 4</h3>
+                    </div>
+                </div>  
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container">
+                <h2>CONTACTO</h2>
+                <p>Comparte con nosotros tus datos de contacto y te enviaremos<br>
+                    toda la informacón de gatos.</p>
+                    <form action="#">
+                        <div class="fila">
+                            <input type="text" placeholder="Nombres:">
+                            <input type="number" placeholder="Teléfono:">
+                        </div>
+                        <div class="fila">
+                            <input type="email" placeholder="Email:">
+
+                            <select name="" id="">
+                                <option value="#">Ciudad:</option>
+                                <option value="#">Bogotá</option>
+                                <option value="#">Medellín</option>
+                                <option value="#">Barranquilla</option>
+                            </select>
+
+                        </div>
+                        <button type="submit">ENVIAR</button>
+
+                    </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© Todos los derechos reservados<br>
+            contacto@gatitos.com<br>
+            +57 3212444445<br>
+            Cr 90 #93 - 20</p>
+    </footer>
+
+</body>
+</html>
